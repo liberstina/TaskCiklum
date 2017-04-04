@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 /**
  * Created by Marinka on 02.04.2017.
  */
-public class HomePage extends MainPage {
+public class HomePage extends PageObject {
     public HomePage(WebDriver driver) {
         super(driver);
     }
