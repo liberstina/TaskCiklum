@@ -1,5 +1,6 @@
 package steps;
 
+import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
 import pages.HomePage;
@@ -17,7 +18,7 @@ public class HomeSteps  extends ScenarioSteps {
         homePage = getPages().get(HomePage.class);
 
     }
-
+    @Step
     public void login_user()
     {
         homePage.getLogin().click();
