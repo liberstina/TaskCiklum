@@ -1,6 +1,7 @@
 package pages;
 
 import net.thucydides.core.annotations.DefaultUrl;
+import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
  * Created by Marinka on 01.04.2017.
  */
 
-public class LoginPage extends MainPage {
+public class LoginPage extends PageObject {
     public LoginPage(WebDriver driver) {
         super(driver);
     }
